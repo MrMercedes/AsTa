@@ -23,4 +23,14 @@
     <color name="warning_color">#f4511e</color>
     <color name="hint_color">#42000000</color>
     <color name="success_color">#009688</color>
+    <color name="transparent">@android:color/transparent</color>
+
+    <color name="whiteTransparent0">#0AFFFFFF</color>
+    <color name="whiteTransparent1">#0FFFFFFF</color>
+    <color name="whiteTransparent2">#1FFFFFFF</color>
+    <color name="whiteTransparent3">#2FFFFFFF</color>
+    <color name="blackTransparent0">#0F000000</color>
+    <color name="blackTransparent1">#1F000000</color>
+    <color name="blackTransparent2">#2F000000</color>
+    <color name="blackTransparent3">#3F000000</color>
 </resources>

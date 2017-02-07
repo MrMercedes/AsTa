@@ -170,14 +170,14 @@ public class FingerprintAuthenticationDialogFragment extends DialogFragment
             if (mUseFingerprintFutureCheckBox.isChecked()) {
                 // Re-create the key so that fingerprints including new ones are
                 // validated.
-                activity.createKey();
+//                activity.createKey();
                 mStage = Stage.FINGERPRINT;
             }
         }
-        mPassword.setText("");
-        ((GestureVerifyActivity) getActivity())
-                .onPurchased(false /* without Fingerprint */);
-        dismiss();
+//        mPassword.setText("");
+//        ((GestureVerifyActivity) getActivity())
+//                .onPurchased(false /* without Fingerprint */);
+//        dismiss();
     }
 
 
@@ -236,7 +236,7 @@ public class FingerprintAuthenticationDialogFragment extends DialogFragment
         // Callback from FingerprintUiHelper. Let the activity know that
         // authentication was
         // successful.
-        ((GestureVerifyActivity) getActivity()).onPurchased(true /* withFingerprint */);
+//        ((GestureVerifyActivity) getActivity()).onPurchased(true /* withFingerprint */);
         dismiss();
     }
 

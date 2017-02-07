@@ -25,6 +25,13 @@
         android:layout_height="match_parent"
         android:layout_margin="@dimen/activity_horizontal_margin"
         android:scaleType="fitXY"
+        android:visibility="gone"
         android:src="@mipmap/content"/>
+    <com.example.hp0331.asta.view.BannerView
+        android:id="@+id/bannerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
 
 </com.example.hp0331.asta.coordinator.MainView>

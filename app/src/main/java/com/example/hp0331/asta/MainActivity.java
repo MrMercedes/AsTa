@@ -1,14 +1,11 @@
 package com.example.hp0331.asta;
 
 import android.animation.Animator;
-import android.animation.ValueAnimator;
-import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.widget.Toast;
 
 import com.airbnb.lottie.LottieAnimationView;
 import com.example.hp0331.asta.login.GestureEditActivity;

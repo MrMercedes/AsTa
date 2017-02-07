@@ -4,15 +4,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#fff">
+    android:background="#2F000000">
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="180dp"
-        android:background="#9ED5E4"/>
-
+    <TextView
+        android:id="@+id/txt"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_below="@id/btn_choose"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:id="@+id/ll_music"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/activity_vertical_margin"
         android:layout_marginLeft="@dimen/activity_horizontal_margin"
@@ -23,7 +27,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@mipmap/milk"/>
+            android:src="@mipmap/ic_sources_music"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -35,7 +39,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/activity_vertical_margin"
         android:layout_marginLeft="@dimen/activity_horizontal_margin"
@@ -57,7 +61,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/activity_vertical_margin"
         android:layout_marginLeft="@dimen/activity_horizontal_margin"
@@ -79,7 +83,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/activity_vertical_margin"
         android:layout_marginLeft="@dimen/activity_horizontal_margin"
@@ -101,7 +105,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/activity_vertical_margin"
         android:layout_marginLeft="@dimen/activity_horizontal_margin"
@@ -123,7 +127,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/activity_vertical_margin"
         android:layout_marginLeft="@dimen/activity_horizontal_margin"
@@ -143,5 +147,22 @@
             android:textSize="@dimen/menu_text_size"
             android:text="@string/menu_rocket_text"/>
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btn_choose"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="倒计时"
+            />
+
+    </LinearLayout>
+    <com.example.hp0331.asta.waterhelper.WaterScreenView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/water_scene_background"/>
 
 </LinearLayout>

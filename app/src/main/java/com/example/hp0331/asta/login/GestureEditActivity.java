@@ -81,6 +81,7 @@ public class GestureEditActivity extends AppCompatActivity implements View.OnCli
                         startActivity(new Intent(GestureEditActivity.this,GestureVerifyActivity.class));
                     } else {
                         mTextTip.setText(Html.fromHtml(getString(R.string.differentlasttime)));
+
                         // 左右移动动画
                         Animation shakeAnimation = AnimationUtils.loadAnimation(GestureEditActivity.this, R.anim.shake);
                         mTextTip.startAnimation(shakeAnimation);

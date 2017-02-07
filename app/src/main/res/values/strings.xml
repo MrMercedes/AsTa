@@ -70,12 +70,24 @@
     <string name="purchase">买</string>
     <string name="purchase_done">购买成功</string>
 
-    <string name="menu_milk_text">每天喝上一杯奶</string>
-    <string name="menu_basketball_text">别忘了去打球</string>
-    <string name="menu_book_text">我爱学习不能自已</string>
-    <string name="menu_game_text">骚年来盘昆特牌</string>
-    <string name="menu_mouse_text">竜が私が敌を喰らう</string>
-    <string name="menu_rocket_text">要上天</string>
+    <string name="menu_milk_text">音乐</string>
+    <string name="music_list">歌曲列表</string>
+    <string name="zerotime">00:00</string>
+    <string name="menu_basketball_text">运动</string>
+    <string name="menu_book_text">学习</string>
+    <string name="menu_game_text">游戏</string>
+    <string name="menu_mouse_text">娱乐</string>
+    <string name="menu_rocket_text">上天</string>
+    <string name="toast_exit_confirm">再按一次退出</string>
+
+    <string name="action_share">Share</string>
+    <string name="title_activity_music">MusicPlayer</string>
+
+    <string name="music_title">title</string>
+    <string name="music_singer">singer</string>
+    <string name="music_size">size</string>
+    <string name="music_duration">duration</string>
+    <string name="music_cancle">close</string>
     <!-- End -->
 
 </resources>
