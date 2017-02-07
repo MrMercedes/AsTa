@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/view/TouchFeedbackButton.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/anim" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/color" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_fingerprint_error.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_fingerprint_success.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_coordinator.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/banner_view.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fingerprint_dialog_backup.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fingerprint_dialog_container.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fingerprint_dialog_content.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/menu.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/music_item.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/singlemusicinfo.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/toolbar.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/basketball.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/book.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/content.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/dot_blur.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/dot_focus.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/foam.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/game.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/gesture_node_normal.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/gesture_node_pressed.png" charset="GBK" />
@@ -21,11 +29,32 @@
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/head.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_fp_40px.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_menu.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_sources_music.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/lock_pattern_node_normal.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/lock_pattern_node_pressed.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/milk.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/mouse.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/musicfile.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/next.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/pause.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/pic1.jpeg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/pic10.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/pic2.jpeg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/pic3.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/pic4.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/pic5.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/pic6.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/pic7.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/pic8.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/pic9.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/play.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/previous.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/rocket.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/share.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/start.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/sun_aura.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/water.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/water_scene_background.9.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml" charset="GBK" />
