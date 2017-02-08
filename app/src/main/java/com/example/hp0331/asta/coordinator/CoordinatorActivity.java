@@ -14,6 +14,8 @@ import android.widget.Toast;
 
 import com.example.hp0331.asta.R;
 import com.example.hp0331.asta.TenStory.StoryOneActivity;
+import com.example.hp0331.asta.bannerview.BannerActivity;
+import com.example.hp0331.asta.games.GamesListActivity;
 import com.example.hp0331.asta.music.MusicActivity;
 import com.example.hp0331.asta.timecount.CountdownActivity;
 import com.example.hp0331.asta.timecount.TimeCountActivity;
@@ -30,12 +32,12 @@ import java.util.List;
  * Created by hp0331 on 2017/2/6.
  */
 
-public class CoordinatorActivity extends AppCompatActivity {
+public class CoordinatorActivity extends AppCompatActivity implements View.OnClickListener{
     private ImageView mHeadIv;
     private long latestBackTime = 0;
     private static final long WAIT_TIME = 1500;
     private CoordinatorMenu mCoordinatorMenu;
-    private LinearLayout floatball;
+    private LinearLayout ll_bpic,ll_games;
     Button btn_choose;
     private Handler mHandler = new Handler();// 全局handler
     private BannerView mBannerView;
@@ -43,86 +45,62 @@ public class CoordinatorActivity extends AppCompatActivity {
     int time = 0;// 时间差
     private TextView txt;
     LinearLayout ll_music;
-    private int ids[] = new int[]{R.mipmap.pic1,R.mipmap.pic2, R.mipmap.pic3,R.mipmap.pic4,R.mipmap.pic5,
-            R.mipmap.pic6,R.mipmap.pic7,R.mipmap.pic8, R.mipmap.pic9,R.mipmap.pic10,};
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_coordinator);
-        mBannerView=(BannerView)findViewById(R.id.bannerview);
-        List<BannerBean> mList = new ArrayList<BannerBean>();
-        for(int i = 0 ;i<ids.length;i++){
-            BannerBean bean = new BannerBean();
-            bean.setType(0);
-            bean.setDrawableforint(ids[i]);
-            mList.add(bean);
-        }
-        mBannerView.setData(mList);
-        mBannerView.setItemClickListener(new BannerView.ItemClickListener() {
-            @Override
-            public void click(View view, BannerBean bean,int position) {
-                switch (position){
-                    case 0:
-                        startActivity(new Intent(CoordinatorActivity.this, StoryOneActivity.class));
-                        break;
-                    case 1:
-                        break;
-                    case 2:
-                        break;
-                    case 3:
-                        break;
-                    case 4:
-                        break;
-                }
-            }
-
-        });
-        ll_music=(LinearLayout)findViewById(R.id.ll_music);
-        ll_music.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(CoordinatorActivity.this, MusicActivity.class));
-
-            }
-        });
-        txt=(TextView)findViewById(R.id.txt);
-        btn_choose=(Button)this.findViewById(R.id.btn_choose);
-        btn_choose.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View v)
-            {
-                Intent intent=new Intent(CoordinatorActivity.this,TimeCountActivity.class);
-                startActivity(intent);
-                //MainActivity.this.finish();
-            }
-        });
+        initview();
+        setlinstener();
         date = 2017 + "-" + (getDateFormat(1 + 1)) + "-" + getDateFormat(14) + " " + getDateFormat(0) + ":" + getDateFormat(0) + ":00";
 
         time = getTimeInterval(date)-getAlarmTiqian("0");// 获取时间差
 
         new Thread(new TimeCount()).start();// 开启线程
 
-        mHeadIv = (ImageView) findViewById(R.id.iv_head);
+    }
+    public void initview(){
         mCoordinatorMenu = (CoordinatorMenu) findViewById(R.id.menu);
-
-        mHeadIv.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        ll_music=(LinearLayout)findViewById(R.id.ll_music);
+        txt=(TextView)findViewById(R.id.txt);
+        btn_choose=(Button)this.findViewById(R.id.btn_choose);
+        mHeadIv = (ImageView) findViewById(R.id.iv_head);
+        ll_bpic=(LinearLayout)findViewById(R.id.ll_bpic);
+        ll_games=(LinearLayout)findViewById(R.id.ll_games);
+    }
+    public void setlinstener(){
+        ll_music.setOnClickListener(this);
+        btn_choose.setOnClickListener(this);
+        mHeadIv.setOnClickListener(this);
+        ll_bpic.setOnClickListener(this);
+        ll_games.setOnClickListener(this);
+    }
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()){
+            case R.id.ll_music:
+                startActivity(new Intent(CoordinatorActivity.this, MusicActivity.class));
+                break;
+            case R.id.btn_choose:
+                Intent intent=new Intent(CoordinatorActivity.this,TimeCountActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.iv_head:
                 if (mCoordinatorMenu.isOpened()) {
                     mCoordinatorMenu.closeMenu();
                 } else {
                     mCoordinatorMenu.openMenu();
                 }
-            }
-        });
-        floatball=(LinearLayout)findViewById(R.id.ll_floatball);
-        floatball.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
-        });
+                break;
+            case R.id.ll_bpic:
+                startActivity(new Intent(CoordinatorActivity.this, BannerActivity.class));
+                break;
+            case R.id.ll_games:
+                startActivity(new Intent(CoordinatorActivity.this, GamesListActivity.class));
+                break;
+        }
     }
     class TimeCount implements Runnable
     {

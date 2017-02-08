@@ -461,34 +461,34 @@ public class MusicActivity extends AppCompatActivity {
 //        unbindService(conn);
         Log.i("MusicPlayerService", "MusicActivity...onDestroy........." + Thread.currentThread().hashCode());
     }
-    private void exit(String info) {
-        if(!isExit) {
-            isExit = true;
-            Toast.makeText(this, info, Toast.LENGTH_SHORT).show();
-            new Timer().schedule(new TimerTask() {
-                @Override
-                public void run() {
-                    isExit = false;
-                }
-            }, 2000);
-        } else {
-            finish();
-        }
-    }
+//    private void exit(String info) {
+//        if(!isExit) {
+//            isExit = true;
+//            Toast.makeText(this, info, Toast.LENGTH_SHORT).show();
+//            new Timer().schedule(new TimerTask() {
+//                @Override
+//                public void run() {
+//                    isExit = false;
+//                }
+//            }, 2000);
+//        } else {
+//            finish();
+//        }
+//    }
     //按两次返回键退出
-    @Override
-    public boolean onKeyDown(int keyCode, KeyEvent event) {
-        if (keyCode == KeyEvent.KEYCODE_BACK
-                && event.getRepeatCount() == 0) {
-            //音乐服务启动了，隐藏至通知栏
-            if(musicPlayerService != null){
-                exit("再按一次隐藏");
-            }else{
-                exit("再按一次退出");
-            }
-
-        }
-        return false;
-    }
+//    @Override
+//    public boolean onKeyDown(int keyCode, KeyEvent event) {
+//        if (keyCode == KeyEvent.KEYCODE_BACK
+//                && event.getRepeatCount() == 0) {
+//            //音乐服务启动了，隐藏至通知栏
+//            if(musicPlayerService != null){
+//                exit("再按一次隐藏");
+//            }else{
+//                exit("再按一次退出");
+//            }
+//
+//        }
+//        return false;
+//    }
 
 }

@@ -75,9 +75,9 @@
     <string name="zerotime">00:00</string>
     <string name="menu_basketball_text">运动</string>
     <string name="menu_book_text">学习</string>
-    <string name="menu_game_text">游戏</string>
+    <string name="menu_game_text">设置</string>
     <string name="menu_mouse_text">娱乐</string>
-    <string name="menu_rocket_text">上天</string>
+    <string name="menu_rocket_text">美景</string>
     <string name="toast_exit_confirm">再按一次退出</string>
 
     <string name="action_share">Share</string>
@@ -88,6 +88,15 @@
     <string name="music_size">size</string>
     <string name="music_duration">duration</string>
     <string name="music_cancle">close</string>
+
+    <string name="listview_header_hint_normal">pull to refresh</string>
+    <string name="listview_header_hint_release">release to start refresh</string>
+    <string name="listview_loading">loading...</string>
+    <string name="nomore_loading">no more to be loaded</string>
+    <string name="refreshing">refreshing...</string>
+    <string name="refresh_done">refresh done</string>
+    <string name="loading_done">loading done</string>
+    <string name="listview_header_last_time">last update：</string>
     <!-- End -->
 
 </resources>

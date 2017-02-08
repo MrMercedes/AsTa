@@ -10,7 +10,9 @@
         android:id="@+id/menu"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <include layout="@layout/menu"/>
+
         <include layout="@layout/main"/>
     </com.example.hp0331.asta.coordinator.CoordinatorMenu>
 </RelativeLayout>

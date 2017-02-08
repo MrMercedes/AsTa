@@ -3,6 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:background="#2F000000">
 
@@ -27,7 +28,8 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@mipmap/ic_sources_music"/>
+            app:srcCompat="@drawable/ic_music"
+            />
 
         <TextView
             android:layout_width="wrap_content"
@@ -49,7 +51,8 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@mipmap/basketball"/>
+            app:srcCompat="@drawable/ic_sports"
+            />
 
         <TextView
             android:layout_width="wrap_content"
@@ -71,7 +74,8 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@mipmap/book"/>
+            app:srcCompat="@drawable/ic_study"
+            />
 
         <TextView
             android:layout_width="wrap_content"
@@ -82,7 +86,10 @@
             android:textSize="@dimen/menu_text_size"/>
     </LinearLayout>
 
+
+
     <LinearLayout
+        android:id="@+id/ll_games"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/activity_vertical_margin"
@@ -93,29 +100,8 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@mipmap/game"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/activity_horizontal_margin"
-            android:textSize="@dimen/menu_text_size"
-            android:textColor="@color/menu_text_color"
-            android:text="@string/menu_game_text"/>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/activity_vertical_margin"
-        android:layout_marginLeft="@dimen/activity_horizontal_margin"
-        android:gravity="center_vertical"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@mipmap/mouse"/>
+            app:srcCompat="@drawable/ic_play1"
+            />
 
         <TextView
             android:layout_width="wrap_content"
@@ -127,7 +113,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/ll_floatball"
+        android:id="@+id/ll_bpic"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/activity_vertical_margin"
@@ -138,7 +124,8 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@mipmap/rocket"/>
+            app:srcCompat="@drawable/ic_bview"
+            />
 
         <TextView
             android:layout_width="wrap_content"
@@ -147,6 +134,28 @@
             android:layout_marginLeft="@dimen/activity_horizontal_margin"
             android:textSize="@dimen/menu_text_size"
             android:text="@string/menu_rocket_text"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_setting"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:textSize="@dimen/menu_text_size"
+            android:textColor="@color/menu_text_color"
+            android:text="@string/menu_game_text"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"

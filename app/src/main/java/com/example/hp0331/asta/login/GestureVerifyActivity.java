@@ -22,7 +22,7 @@ import com.example.hp0331.asta.coordinator.CoordinatorActivity;
 public class GestureVerifyActivity extends AppCompatActivity implements View.OnClickListener{
     private RelativeLayout mTopLayout;
     private TextView mTextTitle;
-    private TextView mTextCancel;
+    private TextView mTextCancel,text_forget_gesture;
     private ImageView mImgUserLogo;
     private TextView mTextPhoneNumber,usefinger;
     private String TAG="Login";
@@ -53,6 +53,7 @@ public class GestureVerifyActivity extends AppCompatActivity implements View.OnC
         mTextOther = (TextView) findViewById(R.id.text_other_account);
         usefinger=(TextView)findViewById(R.id.tv_usefinger);
         usefinger.setVisibility(View.GONE);
+        text_forget_gesture=(TextView)findViewById(R.id.text_forget_gesture);
 
 
         SharedPreferences preferences=getSharedPreferences("message", Context.MODE_PRIVATE);
@@ -94,6 +95,7 @@ public class GestureVerifyActivity extends AppCompatActivity implements View.OnC
         mTextForget.setOnClickListener(this);
         mTextOther.setOnClickListener(this);
         usefinger.setOnClickListener(this);
+        text_forget_gesture.setOnClickListener(this);
     }
     @Override
     public void onClick(View v) {
@@ -102,6 +104,15 @@ public class GestureVerifyActivity extends AppCompatActivity implements View.OnC
                 this.finish();
                 break;
             case R.id.tv_usefinger:
+                break;
+            case  R.id.text_forget_gesture:
+                SharedPreferences preferences=getSharedPreferences("message", Context.MODE_PRIVATE);
+                String password=preferences.getString("password", "");
+                if (password==null||password==""){
+                    Toast.makeText(GestureVerifyActivity.this,"Œ¥…Ë÷√√‹¬Î",Toast.LENGTH_SHORT).show();
+                }else {
+                    Toast.makeText(GestureVerifyActivity.this,"√‹¬Î «:" + password,Toast.LENGTH_SHORT).show();
+                }
                 break;
             default:
                 break;

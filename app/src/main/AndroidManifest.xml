@@ -53,6 +53,10 @@
         </activity>
         <activity android:name=".TenStory.StoryOneActivity">
         </activity>
+        <activity android:name=".bannerview.BannerActivity">
+        </activity>
+        <activity android:name=".games.GamesListActivity">
+        </activity>
     </application>
 
 </manifest>
