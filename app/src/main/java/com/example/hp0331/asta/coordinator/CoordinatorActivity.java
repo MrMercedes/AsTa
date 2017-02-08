@@ -35,6 +35,7 @@ public class CoordinatorActivity extends AppCompatActivity {
     private long latestBackTime = 0;
     private static final long WAIT_TIME = 1500;
     private CoordinatorMenu mCoordinatorMenu;
+    private LinearLayout floatball;
     Button btn_choose;
     private Handler mHandler = new Handler();// È«¾Öhandler
     private BannerView mBannerView;
@@ -113,6 +114,13 @@ public class CoordinatorActivity extends AppCompatActivity {
                 } else {
                     mCoordinatorMenu.openMenu();
                 }
+            }
+        });
+        floatball=(LinearLayout)findViewById(R.id.ll_floatball);
+        floatball.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
             }
         });
     }
