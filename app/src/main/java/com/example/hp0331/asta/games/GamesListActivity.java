@@ -1,14 +1,20 @@
 package com.example.hp0331.asta.games;
 
+import android.content.Intent;
+import android.graphics.Color;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.view.MotionEvent;
+import android.view.View;
+import android.widget.Toast;
 
 import com.example.hp0331.asta.R;
-
+import com.example.hp0331.asta.game2048.Game2048Activity;
+import com.example.hp0331.asta.wuziqi.WuziqiActivity;
 
 
 import java.util.ArrayList;
@@ -32,61 +38,22 @@ public class GamesListActivity extends AppCompatActivity {
         layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
         mRecyclerView.setLayoutManager(layoutManager);
 
-//        mRecyclerView.setRefreshProgressStyle(ProgressStyle.BallSpinFadeLoader);
-//        mRecyclerView.setLoadingMoreProgressStyle(ProgressStyle.BallRotate);
-//        mRecyclerView.setArrowImageView(R.drawable.iconfont_downgrey);
-//        mRecyclerView.setLoadingListener(new XRecyclerView.LoadingListener() {
-//            @Override
-//            public void onRefresh() {
-//                refreshTime ++;
-//                times = 0;
-//                new Handler().postDelayed(new Runnable(){
-//                    public void run() {
-//
-//                        listData.clear();
-//                        for(int i = 0; i < 15 ;i++){
-//                            listData.add("五子棋" + i + "after " + refreshTime + " times of refresh");
-//                        }
-//                        mAdapter.notifyDataSetChanged();
-//                        mRecyclerView.refreshComplete();
-//                    }
-//
-//                }, 1000);            //refresh data here
-//            }
-//
-//            @Override
-//            public void onLoadMore() {
-//                if(times < 2){
-//                    new Handler().postDelayed(new Runnable(){
-//                        public void run() {
-//                            mRecyclerView.loadMoreComplete();
-//                            for(int i = 0; i < 15 ;i++){
-//                                listData.add("item" + (i + listData.size()) );
-//                            }
-//                            mRecyclerView.loadMoreComplete();
-//                            mAdapter.notifyDataSetChanged();
-//                        }
-//                    }, 1000);
-//                } else {
-//                    new Handler().postDelayed(new Runnable() {
-//                        public void run() {
-//                            for(int i = 0; i < 9 ;i++){
-//                                listData.add("item" + (1 + listData.size() ) );
-//                            }
-//                            mRecyclerView.setNoMore(true);
-//                            mAdapter.notifyDataSetChanged();
-//                        }
-//                    }, 1000);
-//                }
-//                times ++;
-//            }
-//        });
-
         listData = new ArrayList<String>();
-        for(int i = 0; i < 15 ;i++){
-            listData.add("item" + i);
-        }
+
+        listData.add("五子棋" );
+        listData.add("2048" );
         mAdapter = new MyAdapter(listData);
         mRecyclerView.setAdapter(mAdapter);
+        mAdapter.setOnItemClickListener(new MyAdapter.OnRecyclerViewItemClickListener() {
+            @Override
+            public void onItemClick(View view, String data) {
+                if (data.startsWith("五子棋")){
+                startActivity(new Intent(GamesListActivity.this, WuziqiActivity.class));
+                }
+                if (data.startsWith("2048")){
+                    startActivity(new Intent(GamesListActivity.this, Game2048Activity.class));
+                }
+            }
+        });
     }
 }

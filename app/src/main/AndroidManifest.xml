@@ -57,6 +57,10 @@
         </activity>
         <activity android:name=".games.GamesListActivity">
         </activity>
+        <activity android:name=".wuziqi.WuziqiActivity">
+        </activity>
+        <activity android:name=".game2048.Game2048Activity">
+        </activity>
     </application>
 
 </manifest>
