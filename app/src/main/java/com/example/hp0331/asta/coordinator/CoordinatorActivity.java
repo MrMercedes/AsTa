@@ -19,6 +19,7 @@ import com.example.hp0331.asta.games.GamesListActivity;
 import com.example.hp0331.asta.music.MusicActivity;
 import com.example.hp0331.asta.timecount.CountdownActivity;
 import com.example.hp0331.asta.timecount.TimeCountActivity;
+import com.example.hp0331.asta.txtreader.BookListActivity;
 import com.example.hp0331.asta.view.BannerBean;
 import com.example.hp0331.asta.view.BannerView;
 
@@ -37,7 +38,7 @@ public class CoordinatorActivity extends AppCompatActivity implements View.OnCli
     private long latestBackTime = 0;
     private static final long WAIT_TIME = 1500;
     private CoordinatorMenu mCoordinatorMenu;
-    private LinearLayout ll_bpic,ll_games;
+    private LinearLayout ll_bpic,ll_games,ll_read;
     Button btn_choose;
     private Handler mHandler = new Handler();// È«¾Öhandler
     private BannerView mBannerView;
@@ -69,6 +70,7 @@ public class CoordinatorActivity extends AppCompatActivity implements View.OnCli
         mHeadIv = (ImageView) findViewById(R.id.iv_head);
         ll_bpic=(LinearLayout)findViewById(R.id.ll_bpic);
         ll_games=(LinearLayout)findViewById(R.id.ll_games);
+        ll_read=(LinearLayout)findViewById(R.id.ll_read);
     }
     public void setlinstener(){
         ll_music.setOnClickListener(this);
@@ -76,6 +78,7 @@ public class CoordinatorActivity extends AppCompatActivity implements View.OnCli
         mHeadIv.setOnClickListener(this);
         ll_bpic.setOnClickListener(this);
         ll_games.setOnClickListener(this);
+        ll_read.setOnClickListener(this);
     }
     @Override
     public void onClick(View v) {
@@ -100,6 +103,8 @@ public class CoordinatorActivity extends AppCompatActivity implements View.OnCli
             case R.id.ll_games:
                 startActivity(new Intent(CoordinatorActivity.this, GamesListActivity.class));
                 break;
+            case  R.id.ll_read:
+                startActivity(new Intent(CoordinatorActivity.this, BookListActivity.class));
         }
     }
     class TimeCount implements Runnable

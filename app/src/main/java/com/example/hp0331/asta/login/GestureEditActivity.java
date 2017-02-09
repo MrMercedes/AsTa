@@ -70,7 +70,7 @@ public class GestureEditActivity extends AppCompatActivity implements View.OnCli
                     mTextReset.setText(getString(R.string.reset_gesture_code));
                 } else {
                     if (inputCode.equals(mFirstPassword)) {
-                        Toast.makeText(GestureEditActivity.this, getString(R.string.setsuccessful), Toast.LENGTH_SHORT).show();
+//                        Toast.makeText(GestureEditActivity.this, getString(R.string.setsuccessful), Toast.LENGTH_SHORT).show();
                         SharedPreferences mySharedPreferences= getSharedPreferences("message",
                                 Activity.MODE_PRIVATE);
                         SharedPreferences.Editor editor = mySharedPreferences.edit();

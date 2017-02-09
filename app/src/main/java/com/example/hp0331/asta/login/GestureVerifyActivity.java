@@ -70,7 +70,7 @@ public class GestureVerifyActivity extends AppCompatActivity implements View.OnC
                     @Override
                     public void checkedSuccess() {
                         mGestureContentView.clearDrawlineState(0L);
-                        Toast.makeText(GestureVerifyActivity.this, getString(R.string.right_code), Toast.LENGTH_SHORT).show();
+//                        Toast.makeText(GestureVerifyActivity.this, getString(R.string.right_code), Toast.LENGTH_SHORT).show();
                         startActivity(new Intent(GestureVerifyActivity.this, CoordinatorActivity.class));
                         finish();
                     }

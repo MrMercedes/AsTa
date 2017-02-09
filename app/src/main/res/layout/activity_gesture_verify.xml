@@ -9,6 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="46dip"
         android:paddingLeft="20dip"
+        android:background="#005172"
         android:paddingRight="20dip"
         android:layout_alignParentTop="true"
          >

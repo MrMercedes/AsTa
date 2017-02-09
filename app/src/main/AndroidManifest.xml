@@ -61,6 +61,12 @@
         </activity>
         <activity android:name=".game2048.Game2048Activity">
         </activity>
+        <activity android:name=".txtreader.BookListActivity">
+        </activity>
+        <activity android:name=".txtreader.InActivity">
+        </activity>
+        <activity android:name=".txtreader.Read">
+        </activity>
     </application>
 
 </manifest>
