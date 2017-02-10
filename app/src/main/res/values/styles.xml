@@ -11,7 +11,17 @@
             backward-compatibility can go here.
         -->
     </style>
+    <style name="AppActionbar" parent="Theme.AppCompat.Light">
+        <item name="windowActionBar">true</item>
+        <item name="actionBarStyle">@style/ClubActionbar</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:cursorVisible">true</item>
+    </style>
 
+    <style name="ClubActionbar" parent="Widget.AppCompat.ActionBar">
+        <item name="contentInsetStart">0dp</item><!-- 设置该属性解决左侧空白部分-->
+        <item name="contentInsetEnd">0dp</item><!-- 设置该属性解决右侧空白部分-->
+    </style>
     <!-- Application theme. -->
     <style name="AppTheme" parent="AppBaseTheme">
         <item name="windowNoTitle">true</item>

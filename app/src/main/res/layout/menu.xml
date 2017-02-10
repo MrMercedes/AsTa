@@ -6,7 +6,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:background="#2F000000">
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
     <TextView
         android:id="@+id/txt"
         android:layout_marginTop="20dp"
@@ -112,7 +117,29 @@
             android:textSize="@dimen/menu_text_size"
             android:text="@string/menu_mouse_text"/>
     </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_movie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_group_movie"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:textSize="@dimen/menu_text_size"
+            android:textColor="@color/menu_text_color"
+            android:text="@string/menu_game_movie"/>
+    </LinearLayout>
     <LinearLayout
         android:id="@+id/ll_bpic"
         android:layout_width="match_parent"
@@ -170,6 +197,7 @@
             android:text="倒计时"
             />
 
+    </LinearLayout>
     </LinearLayout>
     <com.example.hp0331.asta.waterhelper.WaterScreenView
         android:layout_width="match_parent"

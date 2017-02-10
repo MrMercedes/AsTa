@@ -3,6 +3,9 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
 
 
+
+    <dimen name="player_panel_start_btn">50dp</dimen>
+    <dimen name="popup_gap">8dp</dimen>
     <dimen name="menu_text_size">18sp</dimen>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>

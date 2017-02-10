@@ -17,17 +17,21 @@ import com.example.hp0331.asta.TenStory.StoryOneActivity;
 import com.example.hp0331.asta.bannerview.BannerActivity;
 import com.example.hp0331.asta.games.GamesListActivity;
 import com.example.hp0331.asta.music.MusicActivity;
+import com.example.hp0331.asta.player.activity.PlayerActivity;
 import com.example.hp0331.asta.timecount.CountdownActivity;
 import com.example.hp0331.asta.timecount.TimeCountActivity;
 import com.example.hp0331.asta.txtreader.BookListActivity;
 import com.example.hp0331.asta.view.BannerBean;
 import com.example.hp0331.asta.view.BannerView;
 
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+
+
 
 /**
  * Created by hp0331 on 2017/2/6.
@@ -38,7 +42,7 @@ public class CoordinatorActivity extends AppCompatActivity implements View.OnCli
     private long latestBackTime = 0;
     private static final long WAIT_TIME = 1500;
     private CoordinatorMenu mCoordinatorMenu;
-    private LinearLayout ll_bpic,ll_games,ll_read;
+    private LinearLayout ll_bpic,ll_games,ll_read,ll_movie;
     Button btn_choose;
     private Handler mHandler = new Handler();// È«¾Öhandler
     private BannerView mBannerView;
@@ -71,6 +75,7 @@ public class CoordinatorActivity extends AppCompatActivity implements View.OnCli
         ll_bpic=(LinearLayout)findViewById(R.id.ll_bpic);
         ll_games=(LinearLayout)findViewById(R.id.ll_games);
         ll_read=(LinearLayout)findViewById(R.id.ll_read);
+        ll_movie=(LinearLayout)findViewById(R.id.ll_movie);
     }
     public void setlinstener(){
         ll_music.setOnClickListener(this);
@@ -79,6 +84,7 @@ public class CoordinatorActivity extends AppCompatActivity implements View.OnCli
         ll_bpic.setOnClickListener(this);
         ll_games.setOnClickListener(this);
         ll_read.setOnClickListener(this);
+        ll_movie.setOnClickListener(this);
     }
     @Override
     public void onClick(View v) {
@@ -105,6 +111,10 @@ public class CoordinatorActivity extends AppCompatActivity implements View.OnCli
                 break;
             case  R.id.ll_read:
                 startActivity(new Intent(CoordinatorActivity.this, BookListActivity.class));
+                break;
+            case R.id.ll_movie:
+                startActivity(new Intent(CoordinatorActivity.this, PlayerActivity.class));
+                break;
         }
     }
     class TimeCount implements Runnable

@@ -1,86 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/AVLoadingIndicatorView.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/AppBarStateChangeListener.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/ArrowRefreshHeader.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/BaseRefreshHeader.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/ItemTouchHelperAdapter.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/JellyView.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/LoadingMoreFooter.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/ProgressStyle.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/SimpleItemTouchHelperCallback.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/SimpleViewSwitcher.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/XRecyclerView.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/indicator/BallBeatIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/indicator/BallClipRotateIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/indicator/BallClipRotateMultipleIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/indicator/BallClipRotatePulseIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/indicator/BallGridBeatIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/indicator/BallGridPulseIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/indicator/BallPulseIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/indicator/BallPulseRiseIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/indicator/BallPulseSyncIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/indicator/BallRotateIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/indicator/BallScaleIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/indicator/BallScaleMultipleIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/indicator/BallScaleRippleIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/indicator/BallScaleRippleMultipleIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/indicator/BallSpinFadeLoaderIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/indicator/BallTrianglePathIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/indicator/BallZigZagDeflectIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/indicator/BallZigZagIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/indicator/BaseIndicatorController.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/indicator/CubeTransitionIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/indicator/LineScaleIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/indicator/LineScalePartyIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/indicator/LineScalePulseOutIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/indicator/LineScalePulseOutRapidIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/indicator/LineSpinFadeLoaderIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/indicator/PacmanIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/indicator/SemiCircleSpinIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/indicator/SquareSpinIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/crecycleview/indicator/TriangleSkewSpinIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/AppBarStateChangeListener.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/ArrowRefreshHeader.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/BaseRefreshHeader.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/ItemTouchHelperAdapter.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/JellyView.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/LoadingMoreFooter.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/ProgressStyle.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/SimpleItemTouchHelperCallback.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/SimpleViewSwitcher.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/XRecyclerView.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/progressindicator/AVLoadingIndicatorView.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/progressindicator/indicator/BallBeatIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/progressindicator/indicator/BallClipRotateIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/progressindicator/indicator/BallClipRotateMultipleIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/progressindicator/indicator/BallClipRotatePulseIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/progressindicator/indicator/BallGridBeatIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/progressindicator/indicator/BallGridPulseIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/progressindicator/indicator/BallPulseIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/progressindicator/indicator/BallPulseRiseIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/progressindicator/indicator/BallPulseSyncIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/progressindicator/indicator/BallRotateIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/progressindicator/indicator/BallScaleIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/progressindicator/indicator/BallScaleMultipleIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/progressindicator/indicator/BallScaleRippleIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/progressindicator/indicator/BallScaleRippleMultipleIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/progressindicator/indicator/BallSpinFadeLoaderIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/progressindicator/indicator/BallTrianglePathIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/progressindicator/indicator/BallZigZagDeflectIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/progressindicator/indicator/BallZigZagIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/progressindicator/indicator/BaseIndicatorController.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/progressindicator/indicator/CubeTransitionIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/progressindicator/indicator/LineScaleIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/progressindicator/indicator/LineScalePartyIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/progressindicator/indicator/LineScalePulseOutIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/progressindicator/indicator/LineScalePulseOutRapidIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/progressindicator/indicator/LineSpinFadeLoaderIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/progressindicator/indicator/PacmanIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/progressindicator/indicator/SemiCircleSpinIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/progressindicator/indicator/SquareSpinIndicator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/xrecyclerview/progressindicator/indicator/TriangleSkewSpinIndicator.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/coordinator/CoordinatorActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/activity/CaptureActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/activity/HistoryActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/activity/JieVideoListViewAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/activity/LocalFragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/activity/MainActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/activity/NetMediaActivty.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/activity/SettingActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/activity/SurfaceActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/activity/TextureVideoActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/model/GetList.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/model/MyVideoThumbLoader.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/model/NetDbAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/model/NetbaseHelper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/model/Strings.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/util/Application.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/util/AsyncCallback.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/util/Cpu.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/util/Extensions.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/util/LoadedImage.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/util/PlayerPopupWindow.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/util/QosObject.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/util/QosThread.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/util/QyDataBase.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/util/QyDataBaseHelper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/util/Settings.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/util/Video.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/zxing/camera/AutoFocusCallback.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/zxing/camera/CameraConfigurationManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/zxing/camera/CameraManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/zxing/camera/FlashlightManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/zxing/camera/PlanarYUVLuminanceSource.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/zxing/camera/PreviewCallback.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/zxing/decoding/CaptureActivityHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/zxing/decoding/DecodeFormatManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/zxing/decoding/DecodeHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/zxing/decoding/DecodeThread.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/zxing/decoding/FinishListener.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/zxing/decoding/InactivityTimer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/zxing/decoding/Intents.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/zxing/encoding/EncodingHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/zxing/view/ViewfinderResultPointCallback.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/zxing/view/ViewfinderView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/libs/arm64-v8a" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/libs/armeabi-v7a" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/libs/libksyplayer.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/libs/libksyplayer.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/libs/libksystat.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/libs/libksystat.jar" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/anim" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/color" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/luo.jpg" charset="UTF-8" />
@@ -154,11 +123,19 @@
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/share.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/start.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/sun_aura.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/timg.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/water.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/water_scene_background.9.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/player" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/player" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/playerlib" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/playerlib" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/playerlib" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/playerlib" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/playerlibs" charset="UTF-8" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>

@@ -76,6 +76,7 @@
     <string name="menu_basketball_text">运动</string>
     <string name="menu_book_text">读书</string>
     <string name="menu_game_text">设置</string>
+    <string name="menu_game_movie">视频</string>
     <string name="menu_mouse_text">娱乐</string>
     <string name="menu_rocket_text">美景</string>
     <string name="toast_exit_confirm">再按一次退出</string>
@@ -111,6 +112,35 @@
     <string name="bookpop_send">跳转</string>
     <!-- in.xml -->
     <string name="in_refush">刷新</string>
+
+
+
+    <string name="network">网络</string>
+    <string name="history">历史</string>
+    <string name="setting">设置</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="net_search">查找视频信息</string>
+
+    <string name="set_setting">设置</string>
+
+    <string name="popup_choice">请选择编码格式</string>
+
+    <string name="net_scan">扫一扫</string>
+
+    <string name="set_st">播放格式:</string>
+    <string name="set_surface">SurfaceView</string>
+    <string name="set_texture">TextureView</string>
+    <string name="set_hwc">解码格式:</string>
+    <string name="set_hard">硬解</string>
+    <string name="set_soft">软解</string>
+    <string name="start_vedio">播放</string>
+
+    <string name="debugoff">Debug关</string>
+    <string name="debugon">Debug开</string>
+    <string name="debugchange">Debubg开关</string>
+    <string name="set_ksytexture">KSYTexTureView</string>
     <!-- End -->
 
 </resources>

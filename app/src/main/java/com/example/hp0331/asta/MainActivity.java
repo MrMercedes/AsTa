@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main1);
 
         animation_view1=(LottieAnimationView)findViewById(R.id.animation_view1);
         animation_view1.addAnimatorListener(new Animator.AnimatorListener() {
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                 Log.d(Tag,"REPEAT"+repeatNo);
                 SharedPreferences setting = getSharedPreferences(SHARE_APP_TAG, 0);
                 Boolean user_first = setting.getBoolean("FIRST",true);
-                if(user_first){//第一次
+                if(user_first){//锟斤拷一锟斤拷
                     setting.edit().putBoolean("FIRST", false).commit();
                     startActivity(new Intent(MainActivity.this, GestureEditActivity.class));
                     animation_view1.cancelAnimation();

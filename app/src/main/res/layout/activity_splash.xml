@@ -9,7 +9,7 @@
 
         android:id="@+id/img"
         android:scaleType="fitXY"
-        android:src="@mipmap/start"
+        android:src="@mipmap/timg"
         />
 
 </merge>
