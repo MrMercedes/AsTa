@@ -22,11 +22,7 @@
         <item name="contentInsetStart">0dp</item><!-- 设置该属性解决左侧空白部分-->
         <item name="contentInsetEnd">0dp</item><!-- 设置该属性解决右侧空白部分-->
     </style>
-    <!-- Application theme. -->
-    <style name="AppTheme" parent="AppBaseTheme">
-        <item name="windowNoTitle">true</item>
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
-    </style>
+
     <style name="FullHeightDialog"
            parent="android:style/Theme.Dialog">
         <item name="android:windowNoTitle">true</item>

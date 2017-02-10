@@ -57,10 +57,10 @@ public class SettingActivity extends AppCompatActivity implements RadioGroup.OnC
             public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
                 if (isChecked) {
                     editor.putString("choose_debug", Settings.DEBUGON);
-                    Toast.makeText(SettingActivity.this, "Debug被打开", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SettingActivity.this, getString(R.string.opendebug), Toast.LENGTH_SHORT).show();
                 } else {
                     editor.putString("choose_debug", Settings.DEBUGOFF);
-                    Toast.makeText(SettingActivity.this, "Debug被关闭", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SettingActivity.this, getString(R.string.closedebug), Toast.LENGTH_SHORT).show();
                 }
                 editor.commit();
             }
@@ -125,7 +125,7 @@ public class SettingActivity extends AppCompatActivity implements RadioGroup.OnC
         } else if (i == R.id.use_hw) {
             mChooseSurface.check(radioksytexture.getId());
             //radiosurface.setEnabled(false);
-            Toast.makeText(SettingActivity.this, "硬解请使用KSYTextureView", Toast.LENGTH_SHORT).show();
+            Toast.makeText(SettingActivity.this, getString(R.string.pleaseuseview), Toast.LENGTH_SHORT).show();
             editor.putString("choose_decode", Settings.USEHARD);
             editor.putString("choose_view", Settings.USEKSYTEXTURE);
 

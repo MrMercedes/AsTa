@@ -2,6 +2,8 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/coordinator/CoordinatorActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/coordinator/CoordinatorMenu.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/coordinator/MainView.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/activity/CaptureActivity.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/activity/HistoryActivity.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/activity/JieVideoListViewAdapter.java" charset="UTF-8" />

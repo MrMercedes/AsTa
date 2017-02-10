@@ -7,7 +7,9 @@
 
     <!-- Gesture code starting -->
     <string name="setsuccessful">设置成功</string>
-
+    <string name="opendebug">Debug被打开</string>
+    <string name="closedebug">Debug被关闭</string>
+    <string name="pleaseuseview">硬解请使用KSYTextureView</string>
     <string name="send">Send</string>
     <string name="btchat">BTCHAT</string>
     <string name="not_connected">You are not connected to a device</string>
