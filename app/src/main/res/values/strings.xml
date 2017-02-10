@@ -38,6 +38,7 @@
     <string name="reset_gesture_code">重新设置手势密码</string>
     <string name="ues_finger">使用指纹解锁</string>
     <string name="right_code">密码正确</string>
+    <string name="use_mima">使用手势密码</string>
     <string name="notsupportfingerprint">该手机不支持指纹解锁</string>
     <string name="wrong_code"><font color='#c70c1e'>密码错误</font></string>
     <string name="atleastfour"><font color='#c70c1e'>最少链接4个点, 请重新输入</font></string>
@@ -80,7 +81,8 @@
     <string name="menu_mouse_text">娱乐</string>
     <string name="menu_rocket_text">美景</string>
     <string name="toast_exit_confirm">再按一次退出</string>
-
+    <string name="unload">日记板块还未开放</string>
+    <string name="left_tosee">往左滑动有更多内容哦</string>
     <string name="action_share">Share</string>
     <string name="title_activity_music">MusicPlayer</string>
 
@@ -101,7 +103,7 @@
 
 
     <string name="about_book">关于</string>
-    <string name="local_book">开心读书</string>
+
     <string name="input_book">导入本地书目</string>
     <string name="feedback">你好</string>
     <string name="aboue_text1">当前版本:v1.0</string>

@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.example.hp0331.asta.R;
 import com.example.hp0331.asta.TenStory.StoryOneActivity;
+import com.example.hp0331.asta.TenStory.guaguaka.GuaGuaKaActivity;
 import com.example.hp0331.asta.coordinator.CoordinatorActivity;
 import com.example.hp0331.asta.view.BannerBean;
 import com.example.hp0331.asta.view.BannerView;
@@ -39,6 +40,7 @@ public class BannerActivity extends AppCompatActivity {
                         startActivity(new Intent(BannerActivity.this, StoryOneActivity.class));
                         break;
                     case 1:
+                        startActivity(new Intent(BannerActivity.this, GuaGuaKaActivity.class));
                         break;
                     case 2:
                         break;

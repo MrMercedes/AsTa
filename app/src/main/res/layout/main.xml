@@ -18,6 +18,12 @@
         android:layout_marginTop="32dp"
         android:layout_marginLeft="@dimen/activity_horizontal_margin"
         android:src="@mipmap/head"/>
+    <TextView
+        android:text="@string/unload"
+        android:layout_toRightOf="@id/iv_head"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_height="30dp"/>
 
     <ImageView
         android:layout_below="@id/view_title"
@@ -26,5 +32,12 @@
         android:layout_margin="@dimen/activity_horizontal_margin"
         android:scaleType="fitXY"
         android:src="@mipmap/content"/>
+    <TextView
+        android:text="@string/left_tosee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
 
 </com.example.hp0331.asta.coordinator.MainView>

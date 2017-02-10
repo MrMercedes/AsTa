@@ -5,7 +5,7 @@
         <item>book0.txt</item>
     </string-array>
     <string-array name="bookname">
-        <item>泡MM专用短信</item>
+        <item>示例阅读</item>
     </string-array>
     <string-array name="bookauthor">
         <item>未知</item>

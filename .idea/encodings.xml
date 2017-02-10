@@ -91,6 +91,8 @@
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/dot_blur.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/dot_focus.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/foam.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/four.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/four.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/game.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/gesture_node_normal.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/gesture_node_pressed.png" charset="GBK" />
@@ -126,6 +128,7 @@
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/timg.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/water.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/water_scene_background.9.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/zhiwen.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml" charset="GBK" />
