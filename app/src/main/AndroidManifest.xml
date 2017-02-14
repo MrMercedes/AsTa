@@ -92,6 +92,20 @@
         </activity>
         <activity android:name=".TenStory.Story2Activity">
         </activity>
+        <activity android:name=".notes.NotesActivity">
+        </activity>
+        <activity
+            android:name=".notes.AtyEditNote"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".notes.AtyPhotoViewer"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".notes.AtyVideoViewer"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
     </application>
 
 </manifest>

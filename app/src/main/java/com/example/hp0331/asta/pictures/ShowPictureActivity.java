@@ -30,7 +30,7 @@ public class ShowPictureActivity extends AppCompatActivity {
     private ImageView imgShow=null;
 
     private TextView imgPath=null;
-
+    boolean setimg=false;
     private String path;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +40,21 @@ public class ShowPictureActivity extends AppCompatActivity {
         setImage();
 
     }
+
+    @Override
+    protected void onResume() {
+
+        super.onResume();
+    }
+
+    @Override
+    protected void onRestart() {
+        if (!setimg){
+            finish();
+        }
+        super.onRestart();
+    }
+
     private void init() {
         // TODO Auto-generated method stub
 
@@ -169,6 +184,7 @@ public class ShowPictureActivity extends AppCompatActivity {
                 //最后根据索引值获取图片路径
 
                  path = cursor.getString(column_index);
+                setimg=true;
                 imgPath.setText(path);
             }catch (IOException e) {
 

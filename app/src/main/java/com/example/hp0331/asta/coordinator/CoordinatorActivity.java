@@ -17,6 +17,7 @@ import com.example.hp0331.asta.TenStory.StoryOneActivity;
 import com.example.hp0331.asta.bannerview.BannerActivity;
 import com.example.hp0331.asta.games.GamesListActivity;
 import com.example.hp0331.asta.music.MusicActivity;
+import com.example.hp0331.asta.notes.NotesActivity;
 import com.example.hp0331.asta.pictures.ShowPictureActivity;
 import com.example.hp0331.asta.player.activity.PlayerActivity;
 import com.example.hp0331.asta.timecount.CountdownActivity;
@@ -49,7 +50,7 @@ public class CoordinatorActivity extends AppCompatActivity implements View.OnCli
     private BannerView mBannerView;
     private String date;
     int time = 0;// 时间差
-    private TextView txt;
+    private TextView txt,tv_write;
     LinearLayout ll_music;
 
 
@@ -78,6 +79,8 @@ public class CoordinatorActivity extends AppCompatActivity implements View.OnCli
         ll_read=(LinearLayout)findViewById(R.id.ll_read);
         ll_movie=(LinearLayout)findViewById(R.id.ll_movie);
         ll_picture=(LinearLayout)findViewById(R.id.ll_picture);
+        tv_write=(TextView)findViewById(R.id.tv_write);
+
     }
     public void setlinstener(){
         ll_music.setOnClickListener(this);
@@ -88,6 +91,7 @@ public class CoordinatorActivity extends AppCompatActivity implements View.OnCli
         ll_read.setOnClickListener(this);
         ll_movie.setOnClickListener(this);
         ll_picture.setOnClickListener(this);
+        tv_write.setOnClickListener(this);
     }
     @Override
     public void onClick(View v) {
@@ -121,6 +125,9 @@ public class CoordinatorActivity extends AppCompatActivity implements View.OnCli
             case R.id.ll_picture:
                 startActivity(new Intent(CoordinatorActivity.this, ShowPictureActivity.class));
                 break;
+            case R.id.tv_write:
+                startActivity(new Intent(CoordinatorActivity.this, NotesActivity.class));
+
         }
     }
     class TimeCount implements Runnable
@@ -152,7 +159,7 @@ public class CoordinatorActivity extends AppCompatActivity implements View.OnCli
                 @Override
                 public void run()
                 {
-                    txt.setText("设定的时间到。");
+                    txt.setText("时间到了我还在爱着你");
                 }
             });
         }

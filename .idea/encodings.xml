@@ -4,6 +4,10 @@
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/coordinator/CoordinatorActivity.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/coordinator/CoordinatorMenu.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/coordinator/MainView.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/notes/AtyEditNote.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/notes/AtyPhotoViewer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/notes/AtyVideoViewer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/notes/db/NotesDB.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/activity/CaptureActivity.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/activity/HistoryActivity.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/activity/JieVideoListViewAdapter.java" charset="UTF-8" />
@@ -70,6 +74,7 @@
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/loading_12.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/progressbar.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_coordinator.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/aty_eidt_note.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/banner_view.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fingerprint_dialog_backup.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fingerprint_dialog_container.xml" charset="UTF-8" />
@@ -78,8 +83,10 @@
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/listview_footer.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/listview_header.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/media_list_cell.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/menu.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/music_item.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/notes_list_cell.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/pull_to_refresh_head.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/singlemusicinfo.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/toolbar.xml" charset="UTF-8" />
@@ -100,12 +107,15 @@
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_fp_40px.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_menu.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_sources_music.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/icon_photo.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/icon_video.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/lock_pattern_node_normal.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/lock_pattern_node_pressed.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/milk.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/mouse.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/musicfile.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/next.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/notes.jpg" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/pause.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/pic1.jpeg" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/pic10.jpg" charset="UTF-8" />
@@ -131,6 +141,9 @@
     <file url="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/aty_eidt_note.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/media_list_cell.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/notes_list_cell.xml" charset="UTF-8" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>
