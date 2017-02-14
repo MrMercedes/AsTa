@@ -21,41 +21,41 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main1);
 
-        animation_view1=(LottieAnimationView)findViewById(R.id.animation_view1);
-        animation_view1.addAnimatorListener(new Animator.AnimatorListener() {
-            @Override
-            public void onAnimationStart(Animator animator) {
-                Log.d(Tag,"start");
-            }
+//        animation_view1=(LottieAnimationView)findViewById(R.id.animation_view1);
+//        animation_view1.addAnimatorListener(new Animator.AnimatorListener() {
+//            @Override
+//            public void onAnimationStart(Animator animator) {
+//                Log.d(Tag,"start");
+//            }
+//
+//            @Override
+//            public void onAnimationEnd(Animator animator) {
+//                Log.d(Tag,"end");
+//            }
+//
+//            @Override
+//            public void onAnimationCancel(Animator animator) {
+//                Log.d(Tag,"cancle");
+//            }
 
-            @Override
-            public void onAnimationEnd(Animator animator) {
-                Log.d(Tag,"end");
-            }
-
-            @Override
-            public void onAnimationCancel(Animator animator) {
-                Log.d(Tag,"cancle");
-            }
-
-            @Override
-            public void onAnimationRepeat(Animator animator) {
-                repeatNo++;
-                Log.d(Tag,"REPEAT"+repeatNo);
-                SharedPreferences setting = getSharedPreferences(SHARE_APP_TAG, 0);
-                Boolean user_first = setting.getBoolean("FIRST",true);
-                if(user_first){//��һ��
-                    setting.edit().putBoolean("FIRST", false).commit();
-                    startActivity(new Intent(MainActivity.this, GestureEditActivity.class));
-                    animation_view1.cancelAnimation();
-                    finish();
-                }else{
-                    startActivity(new Intent(MainActivity.this, GestureVerifyActivity.class));
-                    animation_view1.cancelAnimation();
-                    finish();
-                }
-            }
-        });
+//            @Override
+//            public void onAnimationRepeat(Animator animator) {
+//                repeatNo++;
+//                Log.d(Tag,"REPEAT"+repeatNo);
+//                SharedPreferences setting = getSharedPreferences(SHARE_APP_TAG, 0);
+//                Boolean user_first = setting.getBoolean("FIRST",true);
+//                if(user_first){//��һ��
+//                    setting.edit().putBoolean("FIRST", false).commit();
+//                    startActivity(new Intent(MainActivity.this, GestureEditActivity.class));
+//                    animation_view1.cancelAnimation();
+//                    finish();
+//                }else{
+//                    startActivity(new Intent(MainActivity.this, GestureVerifyActivity.class));
+//                    animation_view1.cancelAnimation();
+//                    finish();
+//                }
+//            }
+//        });
 
 
     }

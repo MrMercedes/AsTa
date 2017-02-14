@@ -3,80 +3,34 @@
 
     <string name="app_name">爱不释手</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
 
     <!-- Gesture code starting -->
-    <string name="setsuccessful">设置成功</string>
     <string name="opendebug">Debug被打开</string>
     <string name="closedebug">Debug被关闭</string>
     <string name="pleaseuseview">硬解请使用KSYTextureView</string>
-    <string name="send">Send</string>
-    <string name="btchat">BTCHAT</string>
-    <string name="not_connected">You are not connected to a device</string>
-    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
-    <string name="title_connecting">connecting...</string>
-    <string name="title_connected_to">connected to <xliff:g id="device_name">%1$s</xliff:g></string>
-    <string name="title_not_connected">not connected</string>
     <!--  DeviceListActivity -->
-    <string name="scanning">scanning for devices...</string>
-    <string name="select_device">select a device to connect</string>
-    <string name="none_paired">No devices have been paired</string>
-    <string name="none_found">No devices found</string>
-    <string name="title_paired_devices">Paired Devices</string>
-    <string name="title_other_devices">Other Available Devices</string>
-    <string name="button_scan">Scan for devices</string>
 
     <!-- Options Menu -->
-    <string name="secure_connect">Connect a device - Secure</string>
-    <string name="insecure_connect">Connect a device - Insecure</string>
-    <string name="discoverable">Make discoverable</string>
     <string name="setup_gesture_code">设置手势密码</string>
     <string name="verify_gesture_code">验证手势密码</string>
-    <string name="setup_gesture_pattern_again">再次绘制解锁图案</string>
     <string name="forget_gesture_code">忘记手势密码?</string>
     <string name="use_other_account_login">用其他账号登录</string>
     <string name="set_gesture_pattern">绘制解锁图案</string>
     <string name="set_gesture_pattern_reason">设置手势密码，防止他人未经授权查看</string>
     <string name="reset_gesture_code">重新设置手势密码</string>
     <string name="ues_finger">使用指纹解锁</string>
-    <string name="right_code">密码正确</string>
     <string name="use_mima">使用手势密码</string>
-    <string name="notsupportfingerprint">该手机不支持指纹解锁</string>
     <string name="wrong_code"><font color='#c70c1e'>密码错误</font></string>
     <string name="atleastfour"><font color='#c70c1e'>最少链接4个点, 请重新输入</font></string>
     <string name="differentlasttime"><font color='#c70c1e'>与上一次绘制不一致，请重新绘制</font></string>
     <!-- multilanguage -->
-    <string name="english">English</string>
-    <string name="simple_chinese">简体中文</string>
-    <string name="traditional_chinese">繁體中文</string>
 
     <!-- finger -->
-    <string name="use_fingerprint_to_authenticate_title">使用指纹认证</string>
-    <string name="use_fingerprint_to_authenticate_key">使用指纹认证key</string>
-    <string name="fingerprint_not_recognized">指纹识别失败，请重试</string>
-    <string name="fingerprint_success">指纹识别成功</string>
-    <string name="use_fingerprint_in_future">以后使用指纹识别</string>
 
-
-    <string name="fingerprint_hint">触摸传感器</string>
-    <string name="sign_in">登录</string>
-    <string name="password_description">确认你的密码,继续操作</string>
-    <string name="new_fingerprint_enrolled_description">A new fingerprint was added to this device, so your password is required.</string>
-    <string name="password">密码</string>
-    <string name="fingerprint_description">确认指纹，继续操作</string>
-    <string name="cancel">取消</string>
-    <string name="use_password">使用密码</string>
-    <string name="ok">OK</string>
-    <string name="item_title">一生幸福</string>
-    <string name="item_price">¥10</string>
-    <string name="item_description">鸡年专属</string>
-    <string name="purchase">买</string>
-    <string name="purchase_done">购买成功</string>
 
     <string name="menu_milk_text">音乐</string>
     <string name="music_list">歌曲列表</string>
     <string name="zerotime">00:00</string>
-    <string name="menu_basketball_text">运动</string>
     <string name="menu_picture_text">图片</string>
     <string name="menu_book_text">读书</string>
     <string name="menu_game_text">设置</string>
@@ -84,25 +38,12 @@
     <string name="menu_mouse_text">娱乐</string>
     <string name="menu_rocket_text">美景</string>
     <string name="toast_exit_confirm">再按一次退出</string>
-    <string name="unload">日记板块还未开放</string>
-    <string name="left_tosee">往左滑动有更多内容哦</string>
-    <string name="action_share">Share</string>
-    <string name="title_activity_music">MusicPlayer</string>
 
     <string name="music_title">title</string>
     <string name="music_singer">singer</string>
     <string name="music_size">size</string>
     <string name="music_duration">duration</string>
-    <string name="music_cancle">close</string>
 
-    <string name="listview_header_hint_normal">pull to refresh</string>
-    <string name="listview_header_hint_release">release to start refresh</string>
-    <string name="listview_loading">loading...</string>
-    <string name="nomore_loading">no more to be loaded</string>
-    <string name="refreshing">refreshing...</string>
-    <string name="refresh_done">refresh done</string>
-    <string name="loading_done">loading done</string>
-    <string name="listview_header_last_time">last update：</string>
     <string name="mypoem">爱的十四行\n\n\n许多年前有对恋人被烧死，\n那空中摇曳的火花还没消逝，\n你从来都不曾在我的心里离去。\n\n去年的今天我见到了你，\n没有惊艳没有意外就像我早已认识你，\n
         那夜的风一点也不刺骨，\n那夜的酒甘甜得如同六月里的朝露，\n我沉睡，\n而春风早已沉醉.\n时间太短，\n竟不能陪你一起感受黄河以北的夜晚，\n夜晚太长，\n却只够梦到你的一瞬间，\n黎明在此时留下我的誓言</string>
 
@@ -126,7 +67,6 @@
     <string name="setting">设置</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="net_search">查找视频信息</string>
 
     <string name="set_setting">设置</string>
@@ -137,7 +77,6 @@
 
     <string name="set_st">播放格式:</string>
     <string name="set_surface">SurfaceView</string>
-    <string name="set_texture">TextureView</string>
     <string name="set_hwc">解码格式:</string>
     <string name="set_hard">硬解</string>
     <string name="set_soft">软解</string>

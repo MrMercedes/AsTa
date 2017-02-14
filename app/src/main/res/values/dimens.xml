@@ -4,66 +4,12 @@
 
 
     <dimen name="player_panel_start_btn">50dp</dimen>
-    <dimen name="popup_gap">8dp</dimen>
     <dimen name="menu_text_size">18sp</dimen>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <dimen name="textandiconmargin">10dp</dimen>
-    <dimen name="actionbar_size">48dp</dimen>
-    <dimen name="appbar_size">72dp</dimen> <!-- 48dp(ActionBar) + 24dp(StatusBar) -->
+    <!-- 48dp(ActionBar) + 24dp(StatusBar) -->
 
-    <dimen name="font_huge">22sp</dimen>
-    <dimen name="font_larger">20sp</dimen>
-    <dimen name="font_large">18sp</dimen>
-    <dimen name="font_normal">16sp</dimen>
-    <dimen name="font_small">14sp</dimen>
-    <dimen name="font_tiny">12sp</dimen>
+    <!-- 88dp + 32dp -->
+    <!-- 88dp + 120dp -->
 
-    <dimen name="button_size_larger">56dp</dimen>
-    <dimen name="button_size_large">48dp</dimen>
-    <dimen name="button_size_normal">40dp</dimen>
-    <dimen name="button_size_small">32dp</dimen>
-    <dimen name="button_size_smaller">24dp</dimen>
-
-    <dimen name="spacing_huge">48dp</dimen>
-    <dimen name="spacing_larger">32dp</dimen>
-    <dimen name="spacing_large">24dp</dimen>
-    <dimen name="spacing_normal">16dp</dimen>
-    <dimen name="spacing_general">12dp</dimen>
-    <dimen name="spacing_small">8dp</dimen>
-    <dimen name="spacing_smaller">6dp</dimen>
-    <dimen name="spacing_tiny">4dp</dimen>
-
-    <dimen name="device_scene_name_height">32dp</dimen>
-    <dimen name="device_row_height_default">88dp</dimen>
-    <dimen name="device_row_height_scene">120dp</dimen> <!-- 88dp + 32dp -->
-    <dimen name="device_row_height_master">208dp</dimen> <!-- 88dp + 120dp -->
-    <dimen name="device_progressbar_size">22dp</dimen>
-    <dimen name="device_button_size">34dp</dimen>
-    <dimen name="device_logo_size">72dp</dimen>
-    <dimen name="volume_seek_thumb_size">20dp</dimen>
-
-    <dimen name="row_height_normal">56dp</dimen>
-    <dimen name="item_height_normal">40dp</dimen>
-
-    <dimen name="progressbar_size_normal">24dp</dimen>
-    <dimen name="progressbar_size_small">16dp</dimen>
-
-    <dimen name="list_header_height">24dp</dimen>
-    <dimen name="list_divider_height">0.5dp</dimen>
-    <dimen name="list_section_divider_height">24dp</dimen>
-
-    <dimen name="miniplayer_height">56dp</dimen>
-
-    <dimen name="nowplaying_bottom_height">144dp</dimen>
-    <dimen name="nowplaying_seek_playback_height">40dp</dimen>
-    <dimen name="nowplaying_control_playback_height">56dp</dimen>
-
-    <dimen name="ledscenario_bottom_height">96dp</dimen>
-    <dimen name="ledscenario_row_height">64dp</dimen>
-    <dimen name="ledscenario_artwork_size">56dp</dimen>
-
-    <dimen name="volume_item_height">72dp</dimen>
-    <dimen name="volume_item_seek_height">40dp</dimen>
-    <dimen name="volume_item_button_size">34dp</dimen>
 </resources>
