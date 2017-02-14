@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.hp0331.asta.R;
+import com.example.hp0331.asta.TenStory.Story2Activity;
 import com.example.hp0331.asta.TenStory.StoryOneActivity;
 import com.example.hp0331.asta.TenStory.guaguaka.GuaGuaKaActivity;
 import com.example.hp0331.asta.coordinator.CoordinatorActivity;
@@ -17,8 +18,10 @@ import java.util.List;
 
 public class BannerActivity extends AppCompatActivity {
     BannerView mBannerView;
-    private int ids[] = new int[]{R.mipmap.pic1,R.mipmap.pic2, R.mipmap.pic3,R.mipmap.pic4,R.mipmap.pic5,
-            R.mipmap.pic6,R.mipmap.pic7,R.mipmap.pic8, R.mipmap.pic9,R.mipmap.pic10,};
+    private int ids[] = new int[]{R.mipmap.happy1,R.mipmap.ds5,R.mipmap.ds6,
+            R.mipmap.ds7,R.mipmap.ds8,R.mipmap.ds9,R.mipmap.ds10,R.mipmap.ds11,R.mipmap.ds12,R.mipmap.ds13,R.mipmap.ds14,
+            R.mipmap.ds15,R.mipmap.ds16,R.mipmap.ds17,R.mipmap.ds18,R.mipmap.ds19,R.mipmap.ds20,R.mipmap.ds21,R.mipmap.ds22,
+            R.mipmap.ds23,R.mipmap.ds24,R.mipmap.ds25,R.mipmap.ds26,R.mipmap.ds27,R.mipmap.ds28,R.mipmap.ds29};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,12 +40,13 @@ public class BannerActivity extends AppCompatActivity {
             public void click(View view, BannerBean bean, int position) {
                 switch (position){
                     case 0:
-                        startActivity(new Intent(BannerActivity.this, StoryOneActivity.class));
+                        startActivity(new Intent(BannerActivity.this, Story2Activity.class));
                         break;
                     case 1:
-                        startActivity(new Intent(BannerActivity.this, GuaGuaKaActivity.class));
+                        startActivity(new Intent(BannerActivity.this, StoryOneActivity.class));
                         break;
                     case 2:
+                        startActivity(new Intent(BannerActivity.this, GuaGuaKaActivity.class));
                         break;
                     case 3:
                         break;

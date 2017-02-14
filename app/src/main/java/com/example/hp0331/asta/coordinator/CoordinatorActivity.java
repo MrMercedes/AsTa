@@ -17,6 +17,7 @@ import com.example.hp0331.asta.TenStory.StoryOneActivity;
 import com.example.hp0331.asta.bannerview.BannerActivity;
 import com.example.hp0331.asta.games.GamesListActivity;
 import com.example.hp0331.asta.music.MusicActivity;
+import com.example.hp0331.asta.pictures.ShowPictureActivity;
 import com.example.hp0331.asta.player.activity.PlayerActivity;
 import com.example.hp0331.asta.timecount.CountdownActivity;
 import com.example.hp0331.asta.timecount.TimeCountActivity;
@@ -42,7 +43,7 @@ public class CoordinatorActivity extends AppCompatActivity implements View.OnCli
     private long latestBackTime = 0;
     private static final long WAIT_TIME = 1500;
     private CoordinatorMenu mCoordinatorMenu;
-    private LinearLayout ll_bpic,ll_games,ll_read,ll_movie;
+    private LinearLayout ll_bpic,ll_games,ll_read,ll_movie,ll_picture;
     Button btn_choose;
     private Handler mHandler = new Handler();// 全局handler
     private BannerView mBannerView;
@@ -59,9 +60,9 @@ public class CoordinatorActivity extends AppCompatActivity implements View.OnCli
         setContentView(R.layout.activity_coordinator);
         initview();
         setlinstener();
-        date = 2017 + "-" + (getDateFormat(1 + 1)) + "-" + getDateFormat(14) + " " + getDateFormat(0) + ":" + getDateFormat(0) + ":00";
+        date = 2017 + "-" + (getDateFormat(4 + 1)) + "-" + getDateFormat(1) + " " + getDateFormat(0) + ":" + getDateFormat(0) + ":00";
 
-        time = getTimeInterval(date)-getAlarmTiqian("0");// 获取时间差
+        time = getTimeInterval(date);// 时间差
 
         new Thread(new TimeCount()).start();// 开启线程
 
@@ -70,12 +71,13 @@ public class CoordinatorActivity extends AppCompatActivity implements View.OnCli
         mCoordinatorMenu = (CoordinatorMenu) findViewById(R.id.menu);
         ll_music=(LinearLayout)findViewById(R.id.ll_music);
         txt=(TextView)findViewById(R.id.txt);
-        btn_choose=(Button)this.findViewById(R.id.btn_choose);
+        btn_choose=(Button)findViewById(R.id.btn_choose);
         mHeadIv = (ImageView) findViewById(R.id.iv_head);
         ll_bpic=(LinearLayout)findViewById(R.id.ll_bpic);
         ll_games=(LinearLayout)findViewById(R.id.ll_games);
         ll_read=(LinearLayout)findViewById(R.id.ll_read);
         ll_movie=(LinearLayout)findViewById(R.id.ll_movie);
+        ll_picture=(LinearLayout)findViewById(R.id.ll_picture);
     }
     public void setlinstener(){
         ll_music.setOnClickListener(this);
@@ -85,6 +87,7 @@ public class CoordinatorActivity extends AppCompatActivity implements View.OnCli
         ll_games.setOnClickListener(this);
         ll_read.setOnClickListener(this);
         ll_movie.setOnClickListener(this);
+        ll_picture.setOnClickListener(this);
     }
     @Override
     public void onClick(View v) {
@@ -114,6 +117,9 @@ public class CoordinatorActivity extends AppCompatActivity implements View.OnCli
                 break;
             case R.id.ll_movie:
                 startActivity(new Intent(CoordinatorActivity.this, PlayerActivity.class));
+                break;
+            case R.id.ll_picture:
+                startActivity(new Intent(CoordinatorActivity.this, ShowPictureActivity.class));
                 break;
         }
     }
@@ -201,7 +207,7 @@ public class CoordinatorActivity extends AppCompatActivity implements View.OnCli
             long minute = time % 3600 / 60;// 分钟
             long second = time % 60;// 秒
 
-            txt =" 距离情人节还有：" + day + "天" + hour + "小时" + minute + "分" + second + "秒";
+            txt =" 距离劳动节还有：" + day + "天" + hour + "小时" + minute + "分" + second + "秒";
         }
         else
         {

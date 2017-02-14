@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_story2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="30dp"
+    android:background="@mipmap/pic2"
+    tools:context="com.example.hp0331.asta.TenStory.Story2Activity">
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:textColor="#0096a6"
+        android:textSize="18dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="match_parent"
+        android:text="@string/mypoem"/>
+</RelativeLayout>

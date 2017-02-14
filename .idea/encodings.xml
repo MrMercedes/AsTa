@@ -8,7 +8,6 @@
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/activity/HistoryActivity.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/activity/JieVideoListViewAdapter.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/activity/LocalFragment.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/activity/MainActivity.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/activity/NetMediaActivty.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/activity/SettingActivity.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/activity/SurfaceActivity.java" charset="UTF-8" />
@@ -18,7 +17,6 @@
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/model/NetDbAdapter.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/model/NetbaseHelper.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/model/Strings.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/util/Application.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/util/AsyncCallback.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/util/Cpu.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/hp0331/asta/player/util/Extensions.java" charset="UTF-8" />
@@ -49,8 +47,6 @@
     <file url="file://$PROJECT_DIR$/app/src/main/libs/arm64-v8a" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/libs/armeabi-v7a" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/libs/libksyplayer.jar" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/libs/libksyplayer.jar" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/libs/libksystat.jar" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/libs/libksystat.jar" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/anim" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/color" charset="GBK" />
@@ -92,8 +88,8 @@
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/content.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/dot_blur.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/dot_focus.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ds11.jpg" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/foam.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/four.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/four.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/game.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/gesture_node_normal.png" charset="GBK" />
@@ -127,6 +123,7 @@
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/share.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/start.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/sun_aura.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/timecount.jpg" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/timg.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/water.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/water_scene_background.9.png" charset="UTF-8" />
@@ -134,13 +131,6 @@
     <file url="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/player" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/player" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/playerlib" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/playerlib" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/playerlib" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/playerlib" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/playerlibs" charset="UTF-8" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>

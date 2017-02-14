@@ -23,6 +23,7 @@ public class SplashActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_splash);
         img = (ImageView) findViewById(R.id.img);
+
         ScaleAnimation anim = new ScaleAnimation(1.0f,1.5f,1.0f,1.5f,0.5f,0.5f);
         anim.setDuration(3000);
         anim.setFillAfter(true);

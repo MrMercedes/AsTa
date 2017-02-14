@@ -48,9 +48,7 @@
         android:id="@+id/imgShow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="15dip"
         android:layout_below="@+id/rlTitle"
-        android:scaleType="fitXY"
         />
 
     <TextView

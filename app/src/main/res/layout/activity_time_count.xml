@@ -3,7 +3,8 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:gravity="center_horizontal"
-              android:orientation="vertical" >
+              android:background="@mipmap/timecount"
+              android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="wrap_content"

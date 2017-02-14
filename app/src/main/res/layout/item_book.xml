@@ -18,72 +18,12 @@
         android:background="@drawable/itemback1"
         android:contentDescription="@string/app_name" >
     </ImageView>
-
     <RelativeLayout
+        android:id="@+id/rl_image"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_marginLeft="7dip" >
-
-        <TextView
-            android:id="@+id/ItemTitle"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_toRightOf="@+id/ItemImage"
-            android:paddingLeft="83dip"
-            android:text=""
-            android:textColor="#000000"
-            android:textSize="17dip" />
-
-        <TextView
-            android:id="@+id/ItemTitle1"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/ItemTitle"
-            android:layout_marginTop="10dp"
-            android:layout_toRightOf="@+id/ItemImage"
-            android:paddingLeft="83dip"
-            android:text=""
-            android:textColor="#949194"
-            android:textSize="12dip" />
-
-        <TextView
-            android:id="@+id/ItemTitle2"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/ItemTitle1"
-            android:layout_toRightOf="@+id/ItemImage"
-            android:paddingLeft="83dip"
-            android:textColor="#a46120"
-            android:textSize="10dip" />
-
-        <ImageView
-            android:id="@+id/ItemImage9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/ItemTitle2"
-            android:layout_toRightOf="@+id/ItemImage"
-            android:contentDescription="@string/app_name"
-            android:paddingLeft="78dip" />
-
-        <TextView
-            android:id="@+id/last"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_alignTop="@id/ItemTitle"
-            android:layout_marginRight="15dip"
-            android:layout_marginTop="5dip"
-            android:textColor="#949194"
-            android:textSize="12dip" >
-        </TextView>
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:layout_width="fill_parent"
         android:layout_height="100dip"
         android:layout_centerVertical="true"
-        android:layout_alignParentRight="true">
+        >
 
         <ImageView
             android:id="@+id/ItemImage"
@@ -103,5 +43,63 @@
             android:textSize="11dip" >
         </TextView>
     </RelativeLayout>
+    <RelativeLayout
+        android:layout_toRightOf="@+id/rl_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dip" >
+
+        <TextView
+            android:id="@+id/ItemTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dip"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="17dip" />
+
+        <TextView
+            android:id="@+id/ItemTitle1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ItemTitle"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="8dip"
+            android:text=""
+            android:textColor="#949194"
+            android:textSize="12dip" />
+
+        <TextView
+            android:id="@+id/ItemTitle2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ItemTitle1"
+            android:paddingLeft="8dip"
+            android:textColor="#a46120"
+            android:textSize="10dip" />
+
+        <ImageView
+            android:id="@+id/ItemImage9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ItemTitle2"
+            android:contentDescription="@string/app_name"
+            android:paddingLeft="78dip" />
+
+        <TextView
+            android:id="@+id/last"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/ItemTitle"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="5dip"
+            android:textColor="#949194"
+            android:textSize="12dip" >
+        </TextView>
+    </RelativeLayout>
+
+
 
 </RelativeLayout>

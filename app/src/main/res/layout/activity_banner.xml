@@ -8,8 +8,8 @@
     tools:context="com.example.hp0331.asta.bannerview.BannerActivity">
     <com.example.hp0331.asta.view.BannerView
         android:id="@+id/bv_bannerview"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
     </com.example.hp0331.asta.view.BannerView>
 
