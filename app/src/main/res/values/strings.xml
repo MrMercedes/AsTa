@@ -86,6 +86,13 @@
     <string name="debugon">Debug开</string>
     <string name="debugchange">Debubg开关</string>
     <string name="set_ksytexture">KSYTexTureView</string>
+
+
+    <string name="hello">剩下小兵：</string>
+    <string name="app_help">游戏帮助</string>
+    <string name="abouts">跑大洋人v1.0 \n\n小时候经常玩的小游戏，小兵只能往前或者横向移动，大炮隔格可以吃掉小兵，小兵把大炮围住获胜，大炮把小兵吃完获胜。
+    \n
+    </string>
     <!-- End -->
 
 </resources>

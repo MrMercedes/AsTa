@@ -49,4 +49,5 @@ dependencies {
     compile files('src/main/libs/zxing.jar')
     compile files('src/main/libs/libksystat.jar')
     compile files('src/main/libs/libksyplayer.jar')
+
 }

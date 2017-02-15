@@ -27,6 +27,7 @@ import com.example.hp0331.asta.view.BannerBean;
 import com.example.hp0331.asta.view.BannerView;
 
 
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -118,6 +119,7 @@ public class CoordinatorActivity extends AppCompatActivity implements View.OnCli
                 break;
             case  R.id.ll_read:
                 startActivity(new Intent(CoordinatorActivity.this, BookListActivity.class));
+
                 break;
             case R.id.ll_movie:
                 startActivity(new Intent(CoordinatorActivity.this, PlayerActivity.class));

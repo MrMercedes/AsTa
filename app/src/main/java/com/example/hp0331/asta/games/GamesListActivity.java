@@ -14,6 +14,7 @@ import android.widget.Toast;
 
 import com.example.hp0331.asta.R;
 import com.example.hp0331.asta.game2048.Game2048Activity;
+import com.example.hp0331.asta.paodayangren.PaodDaYangRenActivity;
 import com.example.hp0331.asta.wuziqi.WuziqiActivity;
 
 
@@ -42,6 +43,7 @@ public class GamesListActivity extends AppCompatActivity {
 
         listData.add("五子棋" );
         listData.add("2048" );
+        listData.add("炮打洋人");
         mAdapter = new MyAdapter(listData);
         mRecyclerView.setAdapter(mAdapter);
         mAdapter.setOnItemClickListener(new MyAdapter.OnRecyclerViewItemClickListener() {
@@ -52,6 +54,9 @@ public class GamesListActivity extends AppCompatActivity {
                 }
                 if (data.startsWith("2048")){
                     startActivity(new Intent(GamesListActivity.this, Game2048Activity.class));
+                }
+                if (data.startsWith("炮打洋人")){
+                    startActivity(new Intent(GamesListActivity.this, PaodDaYangRenActivity.class));
                 }
             }
         });

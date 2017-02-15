@@ -57,6 +57,8 @@ public class NotesActivity extends ListActivity {
         findViewById(R.id.btnAddNote).setOnClickListener(
                 btnAddNote_clickHandler);
     }
+
+
     /**
      * 复写方法，笔记列表中的笔记条目被点击时被调用，打开编辑笔记页面，同事传入当前笔记的信息
      */

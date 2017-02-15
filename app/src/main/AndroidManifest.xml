@@ -25,7 +25,7 @@
     <application
         android:name=".MyApplication"
         android:allowBackup="true"
-        android:icon="@mipmap/wings"
+        android:icon="@mipmap/wings1"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
@@ -96,15 +96,19 @@
         </activity>
         <activity
             android:name=".notes.AtyEditNote"
-            android:configChanges="keyboardHidden|orientation" >
+            android:configChanges="keyboardHidden|orientation">
         </activity>
         <activity
             android:name=".notes.AtyPhotoViewer"
-            android:configChanges="keyboardHidden|orientation" >
+            android:configChanges="keyboardHidden|orientation">
         </activity>
         <activity
             android:name=".notes.AtyVideoViewer"
-            android:configChanges="keyboardHidden|orientation" >
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity android:name=".paodayangren.PaodDaYangRenActivity">
+        </activity>
+        <activity android:name=".paodayangren.AboutActivy">
         </activity>
     </application>
 

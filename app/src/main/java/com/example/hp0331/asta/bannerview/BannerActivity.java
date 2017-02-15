@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+
 import com.example.hp0331.asta.R;
 import com.example.hp0331.asta.TenStory.Story2Activity;
 import com.example.hp0331.asta.TenStory.StoryOneActivity;
@@ -18,10 +19,7 @@ import java.util.List;
 
 public class BannerActivity extends AppCompatActivity {
     BannerView mBannerView;
-    private int ids[] = new int[]{R.mipmap.ds5,R.mipmap.ds6,
-            R.mipmap.ds7,R.mipmap.ds8,R.mipmap.ds9,R.mipmap.ds10,R.mipmap.ds11,R.mipmap.ds12,R.mipmap.ds13,R.mipmap.ds14,
-            R.mipmap.ds15,R.mipmap.ds16,R.mipmap.ds17,R.mipmap.ds18,R.mipmap.ds19,R.mipmap.ds20,R.mipmap.ds21,R.mipmap.ds22,
-            R.mipmap.ds23,R.mipmap.ds24,R.mipmap.ds25,R.mipmap.ds26,R.mipmap.ds27,R.mipmap.ds28,R.mipmap.ds29,R.mipmap.happy1};
+    private int ids[] = new int[]{R.mipmap.mypic1,R.mipmap.mypic2,R.mipmap.mypic3};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
