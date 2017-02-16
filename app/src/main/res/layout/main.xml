@@ -24,7 +24,7 @@
         android:layout_alignParentEnd="true"
         android:layout_width="wrap_content"
         android:gravity="center"
-        android:background="#F87D95"
+        android:background="#C7EDCC"
         android:layout_marginTop="40dp"
         android:layout_marginRight="20dp"
         android:padding="10dp"
